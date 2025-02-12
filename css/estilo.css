@@ -1,0 +1,104 @@
+.hero{
+    background-image: url(/img/fondo/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-one{
+    background-image: url(../img/bg-showcase-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-two{
+    background-image: url(../img/bg-showcase-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t1{
+    color: white;
+}
+
+.servicios{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(243, 243, 243);
+}
+
+
+.col-p{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.col-p2{
+    padding-right: 100px;
+}
+
+.col-p3{
+    padding-left: 100px;
+}
+
+
+.icons{
+    font-size: 64px;
+    color: rgb(0, 102, 255);
+    animation: cambioColor 3s infinite alternate;
+}
+
+.mini-icons{
+    font-size: 24px;
+    color: rgb(0, 102, 255);
+}
+
+
+.col-pv{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.piedepagina{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+
+.txt-gray{
+    margin-bottom: 0px;
+    color: gray;
+}
+
+
+@media screen and (max-width: 756px) {
+    .t1 {
+        color: black;
+    }
+}
+
+@keyframes cambioColor {
+    0% { color: #52b36e; }
+    50% { color: #ff8533; }
+    100% { color: rgb(0, 102, 255); }
+}
+
+
+
+
